@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background: linear-gradient(to right, #859398, #283048);
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container{
+    max-width:1000px;
+    background-color:#E4F9F5;
+    margin:0 auto;
+    padding:20px;
+}
+.img{
+    width:100px;
+    height:140px;
+    border:3px solid white;
+    border-radius:50%;
+    float:left;
+}
+.headline{
+    float:left;
+    padding:40px;
+    
+}
+h1,h2,h3,h4,h5,h6{
+
+    color:#11999e;
+}
+.link{
+    float:right;
+    padding:30px;
+}
+.link a{
+    text-decoration:none;
+    color:teal;
+    font-weight:bold;
+}
+.link a:hover{
+    text-decoration:underline;
+    color:tomato;
+}
+.div-clear{
+    clear:both;
+}
+.head{
+    display:flex;
+    border-style: double;
+}
+.left{
+    margin-right:200px;
+    width:50%;
+    border-right:.8px dashed;
+    padding:10px;
+}
+.right{
+    margin-right:150px;
+    width:70%;
+    padding:10px;
+}
+.project{
+    margin-left:35px;
+}
+.copy{
+    color:#F87318;
+}
+ /* Facebook */
+ .fa-facebook {
+    background: #3B5998;
+    color: white;
+    width:40px;
+  }
+  /* linkedin */
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+.div{
+    margin-bottom:500px;
+}
+.div1{
+    max-width:1140px;
+    background-color:#E4F9F5;
+    margin:0 auto;
+    padding:20px;
+}
+
